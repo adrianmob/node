@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --require @babel/register test/users.test.js",
     "dev": "nodemon src/index.js --exec babel-node",
-    "build": "babel src --out-dir build",
+    "build": "babel --out-dir build",
     "start": "node build/index.js"
   },
   "keywords": [],
